@@ -95,7 +95,7 @@ header .colunas span {
   width: 45px;
   height: 135px;
   z-index: 2;
-  margin: 0 22px 0 -20px;
+  margin: 0 -22px 0 -20px;
 
   border-radius: 0 0 5px 5px;
   background: linear-gradient(#333, #000);
@@ -109,12 +109,16 @@ header .colunas span {
   font-size: 1.13rem;
 }
 
-.teclas_piano .white:active {
+.teclas_piano .white.active {
   box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to bottom #fff 0%, #eee 100%);
 }
 
-.teclas_piano .black:active {
+.teclas_piano .black.active {
   box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.2);
   background: linear-gradient(to bottom #000, #434343);
+}
+
+.teclas_piano .notas.hidden span {
+  display: none;
 }

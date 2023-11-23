@@ -24,7 +24,7 @@
             <h2>Piano Virtual</h2>
             <div class="colunas volume-slider">
                 <span> Volume</span>
-                <input type="range" name="" id="">
+                <input type="range" name="" id="" min="0" max="2" value="0.5" step="any">
             </div>
             <div class="colunas notas-check">
                 <span>Teclas</span>
@@ -33,28 +33,28 @@
         </header>
 
         <ul class="teclas_piano">
-            <li class="notas white"><span>a</span></li>
-            <li class="notas black"><span>w</span></li>
-            <li class="notas white"><span>s</span></li>
-            <li class="notas black"><span>e</span></li>
-            <li class="notas white"><span>d</span></li>
-            <li class="notas black"><span>f</span></li>
-            <li class="notas white"><span>t</span></li>
-            <li class="notas black"><span>g</span></li>
-            <li class="notas white"><span>y</span></li>
-            <li class="notas black"><span>h</span></li>
-            <li class="notas white"><span>u</span></li>
-            <li class="notas black"><span>j</span></li>
-            <li class="notas white"><span>k</span></li>
-            <li class="notas black"><span>o</span></li>
-            <li class="notas white"><span>l</span></li>
-            <li class="notas black"><span>p</span></li>
-            <li class="notas white"><span>;</span></li>
+            <li class="notas white" data-nota="a"><span>a</span></li>
+            <li class="notas black" data-nota="w"><span>w</span></li>
+            <li class="notas white" data-nota="s"><span>s</span></li>
+            <li class="notas black" data-nota="e"><span>e</span></li>
+            <li class="notas white" data-nota="d"><span>d</span></li>
+            <li class="notas black" data-nota="f"><span>f</span></li>
+            <li class="notas white" data-nota="t"><span>t</span></li>
+            <li class="notas black" data-nota="g"><span>g</span></li>
+            <li class="notas white" data-nota="y"><span>y</span></li>
+            <li class="notas black" data-nota="h"><span>h</span></li>
+            <li class="notas white" data-nota="u"><span>u</span></li>
+            <li class="notas black" data-nota="j"><span>j</span></li>
+            <li class="notas white" data-nota="k"><span>k</span></li>
+            <li class="notas black" data-nota="o"><span>o</span></li>
+            <li class="notas white" data-nota="l"><span>l</span></li>
+            <li class="notas black" data-nota="p"><span>p</span></li>
+            <li class="notas white" data-nota=";"><span>;</span></li>
         </ul>
     </div>
 
 
-    <script src="./src/scripts/engine.js"></script>
+    <script src="./src/scripts/engine.js" defer></script>
 </body>
 
 </html>
